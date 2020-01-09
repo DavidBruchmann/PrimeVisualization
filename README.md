@@ -26,7 +26,7 @@ Configuration
 -------------
 primary in file
 ```
-Classes/Configuration/DefaultApplicationConfiguration.php
+Configuration/DefaultApplicationConfiguration.php
 ```
 Warning: parameters and structure still can change, furthermore are not complete
 yet related to the features that shall be determined and influenced by this
