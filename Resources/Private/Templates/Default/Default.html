@@ -1,0 +1,17 @@
+<f:layout name="Default" />
+
+<f:comment>
+	<pre><f:debug>{_all}</f:debug></pre>
+
+    <f:if condition="{streamingContent}"><div class="stream"></f:if>
+</f:comment>
+
+<f:section name="Main">
+    <div class="topbar"><f:format.raw>{contentTop}</f:format.raw></div>
+    <div class="main">
+        <div class="leftbar"><f:format.raw>{contentLeft}</f:format.raw></div>
+        <div class="content"><f:format.raw>{content}</f:format.raw></div>
+        <div class="rightbar"><f:format.raw>{contentRight}</f:format.raw></div>
+    </div>
+    <footer class="footer"><f:format.raw>{contentFooter}</f:format.raw></footer>
+</f:section>

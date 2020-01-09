@@ -1,0 +1,28 @@
+{
+    "name": "primevisualization/module-test",
+    "description": "Several Functions for verifying, analyzing and displaying primes.",
+    "type": "primevisualization-module",
+    "version": "1.0",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "DavidBruchmann",
+            "email": "david.bruchmann@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "wdb/prime-visualization": "*",
+        "wdb/primevisualization-module-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WDB\\PrimeVisualization\\Modules\\Test\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WDB\\PrimeVisualization\\Modules\\Test\\": "Tests/"
+        }
+    }
+}

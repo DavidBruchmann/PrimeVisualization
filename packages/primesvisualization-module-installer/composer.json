@@ -1,0 +1,27 @@
+{
+    "name": "wdb/primevisualization-module-installer",
+    "type": "composer-plugin",
+    "license": "GPL-3.0-or-later",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "DavidBruchmann",
+            "email": "david.bruchmann@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "WDB\\PrimeVisualizationInstaller\\Composer\\": "Composer/"
+        }
+    },
+    "extra": {
+        "class": "WDB\\PrimeVisualizationInstaller\\Composer\\ModuleInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "*"
+    },
+    "require-dev": {
+        "composer/composer": "*"
+    }
+}

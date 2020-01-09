@@ -1,0 +1,5 @@
+vendor/
+Classes/Application/Modules/*
+!Classes/Application/Modules/.git*
+composer.json.bak
+composer.lock
